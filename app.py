@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import pandas as pd  # 📊 グラフ用のライブラリ
 from supabase import create_client, Client
 
-SUPABASE_URL = "https://egvybngkywdppayoakop.supabase.co"
+SUPABASE_URL = "https://egvybngkywdppayoakop.supabase.co/rest/v1/"
 SUPABASE_KEY = "sb_publishable_xza6vSsmnhJoqD3x8jVflg_Z5B5sqoR"
 
 # データベースに接続を試みる
